@@ -1,25 +1,28 @@
 "use strict";
 
+const ul = document.querySelector('ul');
+
 for (let number = 1; number <= 100; number++){
+
+    const li = document.createElement('li');
+    
+    li.append(number);
+    
+    ul.append(li);
 
     if (number % 15 === 0) {
 
-        let number = 'FizzBuzz'
-        console.log(number)
+        li.innerHTML = 'FizzBuzz';
     }
 
     else if (number % 3 === 0) {
 
-        let number = 'Fizz'
-        console.log(number)
+        li.innerHTML = 'Fizz';
     }
-    else if (number % 5 === 0){
+    else if (number % 5 === 0) {
 
-        let number = 'Buzz'
-        console.log(number)
+        li.innerHTML = 'Buzz';
+        
     }
     
-    else {
-        console.log(number)
-    }  
 }
