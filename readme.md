@@ -2,10 +2,10 @@ PROBLEMA: Scrivi un programma che stampi in console i numeri da 1 a 100, ma che 
 
 1.Creo un ciclo for che stampi i numeri in console i numeri da 1 a 100
 
-2.SE il numero è multiplo di 3 stamperà Fizz
+2.SE il numero è multiplo di 15 stamperà FizzBuzz
 
-3.ALTRIENTI SE il numero è multiplo di 5 stamperà Buzz
+3.ALTRIENTI SE il numero è multiplo di 3 stamperà Fizz
 
-4.ALTRIMENTI SE il numero è multiplo di 15 stamperà FizzBuzz
+4.ALTRIMENTI SE il numero è multiplo di 5 stamperà Buzz
 
 5.ALTRIMENTI stamperà il numero naturale
