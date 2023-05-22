@@ -10,7 +10,7 @@ for (let number = 1; number <= 100; number++){
     
     ul.append(li);
 
-    if (number % 15 === 0) {
+    if (number % 3 === 0 && number % 5 === 0) {
 
         li.innerHTML = 'FizzBuzz';
         li.classList.add('red') 
