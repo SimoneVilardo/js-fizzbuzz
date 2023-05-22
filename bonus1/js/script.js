@@ -12,17 +12,23 @@ for (let number = 1; number <= 100; number++){
 
     if (number % 3 === 0 && number % 5 === 0) {
 
-        li.innerHTML = 'FizzBuzz';
+        li.innerText = 'FizzBuzz';
     }
 
     else if (number % 3 === 0) {
 
-        li.innerHTML = 'Fizz';
+        li.innerText = 'Fizz';
     }
     else if (number % 5 === 0) {
 
-        li.innerHTML = 'Buzz';
+        li.innerText = 'Buzz';
         
+    }
+
+    else {
+
+        li.innerText = number
+
     }
     
 }
